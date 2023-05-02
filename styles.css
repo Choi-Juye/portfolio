@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Noto+Sans+KR:wght@100;400;500&display=swap');
+
+
+/* Global Styles */
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+  padding: 10px;
+}
+
+body {
+  margin: auto;
+ 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-logo {
+  font-size: 40px;
+}
+
+.nav-category {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-category:active {
+  text-decoration: underline;
+}
+
+nav a {
+  font-size: 40px;
+}
+
+.main-title-container {
+ text-align: right;
+}
+
+#about {
+  margin: 120px auto;
+  padding: 20px;
+}
+
+.main-title {
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.my-name {
+  font-weight: 600;
+}
+
+
+.about-section1 {
+  display: flex;
+}
+
+.about-section2 {
+  display: grid;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.about1 {
+  font-size: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: right;
+}
+
+.about2 {
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+}
+
+.about-profile {
+  max-width: 450px;
+  height: auto;
+  display: block;
+}
+
+
+#archive {
+  padding: 20px;
+}
+
+.archive-title {
+  
+  font-size: 140px;
+}
+
+.episode-container {
+ margin: auto;
+  max-width:854px;
+}
+
+.episode-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 13px;
+}
+
+.episode-introduction {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.latest-episode-image {
+  height: 500px;
+  background-color: blanchedalmond;
+}
+
+
+.archive-episode-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.archive-episode {
+  padding: 20px;
+}
+
+.archive-episode-image {
+  height: 300px;
+  background-color: blanchedalmond;
+}
+
+.archive-episode-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+footer {
+  padding: 60px;
+  text-align: center;
+}
+
+
+@media screen and (max-width:996px) {
+  .about-section1 {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .about-profile {
+    margin: auto;
+  }
+
+  .about1 {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .about2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .archive-episode-container {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-title {
+    font-size: 120px;
+  }
+
+  .archive-episode {
+    margin: auto;
+  }
+
+  .archive-episode-image {
+   width: 500px;
+  }
+
+  .archive-episode {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+
+}
